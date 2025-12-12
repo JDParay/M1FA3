@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Demo by JDP</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Word Searcher and Character Counter</h1>
+        <section id="Machine-Problem-2">
+            <p id="title"><b>Machine Problem 2: SearchWord</b></p>
+        <div>
+            <input type="text" id="sentenceInput" placeholder="Input a sentence...">
+            <br>
+            <input type="text" id="searchWord" placeholder="Seach word...">
+        </div>
+        <div>
+            <p id="p1d1">[found | not found]</p>
+            <br>
+            <button onclick="wordSearch()">Word Checker</button>
+            <br>
+            <button onclick="outputReset()">Reset</button>
+        </div>
+        </section>
+        <section id="Machine-Problem-4">
+            <p id="title"><b>Machine Problem 4: CountCharacters</b></p>
+            <div>
+                <input type="text" id="wordCount" placeholder="Input a word or sentence...">
+            </div>
+            <div>
+                <p id="p1d2">[0]</p>
+                <button onclick="wordCount()">Count Characters</button>
+            </div>
+        </section>
+        <br>
+        <br>
+        <button onclick="location.href='https://jdparay.github.io/JDPortfolio/'">Return</button>
+        <script src="script.js"></script>
+    </body>
+</html>

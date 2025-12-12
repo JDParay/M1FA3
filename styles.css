@@ -1,0 +1,56 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 5px;
+    background-color:#987554;
+    color: #d9b28b;
+}
+
+input::placeholder {
+    color: #442f1e;
+}
+
+input {
+    color: #442f1e;
+}
+
+button {
+   right: 40px;
+   bottom: 40px;
+   padding: 12px 25px;
+   background-color: #d9b28b;
+   color: #442F1E;
+   border: none;
+   border-radius: 6px;
+   cursor: pointer;
+   font-weight: bold;
+   transition: 0.3s ease;
+}
+
+h1 {
+    padding: 25px;
+}
+
+body {
+    text-align: center;
+}
+
+section {
+    text-align: center;
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 8px;
+    width: 60%;
+}
+
+#title {
+    padding: 10px;
+}
+
+#Machine-Problem-2 {
+    padding: 30px;
+}
+
+#Machine-Problem-4 {
+    padding: 30px;
+}
